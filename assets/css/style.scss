@@ -1,0 +1,18 @@
+$navbar-color: rgb(0, 0, 0);
+$navbar-link: rgb(255, 255, 255);
+$navbar-link-hover: rgb(255, 0, 0);
+
+.navbar {
+  background-color: $navbar-color;
+
+  .navbar-toggler {
+    color: white;
+  }
+}
+
+.nav-link {
+  color: $navbar-link;
+}
+.nav-link:hover {
+      color: $navbar-link-hover !important;
+}
