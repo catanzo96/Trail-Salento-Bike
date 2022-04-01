@@ -5,15 +5,12 @@ $navbar-link-hover: rgb(255, 0, 0);
 .navbar {
   background-color: $navbar-color;
 
-  .navbar-toggler {
-    background-color: white;
-  }
-  
-}
-
-.nav-link {
-  color: $navbar-link;
-}
-.nav-link:hover {
+  .nav-item {
+    a {
+      color: $navbar-link;
+    }
+    a:hover {
       color: $navbar-link-hover !important;
+    }
+  }
 }
