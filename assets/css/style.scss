@@ -13,4 +13,13 @@ $navbar-link-hover: rgb(255, 0, 0);
       color: $navbar-link-hover !important;
     }
   }
+  .navbar-toggler {
+    background-color: $navbar-link-hover;
+    padding: 0 0.3em;
+  }
+  span > .fas {
+    color: $navbar-link;
+    font-size: 20px;
+    padding-top: 0.2em;
+  }
 }
