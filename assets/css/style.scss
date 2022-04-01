@@ -23,3 +23,20 @@ $navbar-link-hover: rgb(255, 0, 0);
     padding-top: 0.2em;
   }
 }
+
+.banner {
+  height: 200px;
+  background-color: black;
+  background-image: url("../images/foto1.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 400px;
+  }
+}
