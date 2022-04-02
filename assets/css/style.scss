@@ -14,30 +14,35 @@ $navbar-link-hover: rgb(255, 0, 0);
     }
   }
   .navbar-toggler {
-    background-color: $navbar-link-hover;
+    background-color: white;
     padding: 0 0.3em;
   }
   span > .fas {
-    color: $navbar-link;
+    color: black;
     font-size: 20px;
     padding-top: 0.2em;
   }
 }
 
 .banner {
-  height: 200px;
+  height: 300px;
   background-color: black;
   background-image: url("../images/foto1.jpg");
   background-size: cover;
   background-position: center;
-
-  margin-bottom: 20px;
-
 }
 
+.divisor {
+  margin: 0 0;
+  border: 0; border-top: 15px solid $navbar-color;
+}
 
 @media screen and (min-width: 768px) {
   .banner {
-    height: 400px;
+    height: 450px;
+  }
+
+  .divisor {
+    border: 0; border-top: 30px solid $navbar-color;
   }
 }
