@@ -37,12 +37,16 @@ $navbar-link-hover: rgb(255, 0, 0);
   border: 0; border-top: 15px solid $navbar-color;
 }
 
-.carousel-item, .background-pages {
-  height: 550px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
+.carousel {
+
+  .carousel-item, .background-pages {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
 }
+
 
 @media screen and (min-width: 768px) {
   .banner {
@@ -51,5 +55,15 @@ $navbar-link-hover: rgb(255, 0, 0);
 
   .divisor {
     border: 0; border-top: 30px solid $navbar-color;
+  }
+
+  .carousel {
+    
+    .carousel-item, .background-pages {
+      height: 550px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
