@@ -59,7 +59,7 @@ $third-color: rgb(215, 133, 0 );
 
   h2 {
     font-family: 'Secular One', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
@@ -81,7 +81,12 @@ $third-color: rgb(215, 133, 0 );
   }
 
   .podio {
-    height: 200px;
+    height: 150px;
+  }
+
+  .top-margin {
+    margin-top: 100px;
+    margin-right: 15px;
   }
 }
 
@@ -101,6 +106,21 @@ $third-color: rgb(215, 133, 0 );
       width: 100%;
       background-size: cover;
       background-position: center;
+    }
+  }
+
+  .classifiche {
+    h2 {
+      font-size: 3em;
+    }
+
+    .podio {
+      height: 250px;
+    }
+
+    .top-margin {
+      margin-top: 10px;
+      margin-right: 15px;
     }
   }
 }
