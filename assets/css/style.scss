@@ -102,6 +102,26 @@ footer {
   }
 }
 
+.red-dot {
+  height: 15px;
+  width: 15px;
+  background-color: #FF002E;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.members-table {
+  a {
+    text-decoration: none;
+  }
+
+  .profile {
+    color: #0DF401;
+  }
+  
+}
+
+
 @media screen and (min-width: 768px) {
   .banner {
     height: 450px;
